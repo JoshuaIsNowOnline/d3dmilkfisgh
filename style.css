@@ -1,34 +1,80 @@
 html{
     background-color:bisque;
+    padding:0;
+    margin:auto;
+}
+
+.title{
+    text-align: center;
+}
+
+#story{
+    text-align: center;
+
 }
 
 
-
-
-table{
-    width:100%
+li{
+    float:left;
     
 }
 
-th{
-    
-    background-color:black;
-    border-radius: 15px;
+h1,h2,h3,h4{
+    font-size: 30px;
+    text-align: center;
 }
 
-a{
-    color: aliceblue;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+tr , th{
+    background-color:aliceblue;
+    border-spacing: 40px;
+    border:solid;
+}
+
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 16px;
     text-decoration: none;
+  }
+
+
+
+li a:hover{
+    color: yellowgreen;
+    background-color: #111111;
 }
 
-a:hover{
-    color: yellowgreen;
-}
 
 h1{
     text-align: center;
 }
 
+.foot{
+    
+    background-color: #3b3b3b;
+    height:100px;
+}
 
+.fb-ig{
+    padding:20px;
 
+}
 
+#shop{
+    border-radius: 50px;
+    width: 50px;
+    position: fixed;
+    right:13px; 
+    bottom: 50px;
+    
+}
